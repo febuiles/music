@@ -1,211 +1,0 @@
-Tmusic
-v7
-r0
-t316430949.282046
-cCheck dependencies
-cProcessInfoPlistFile /Users/federico/programacion/music/build/Debug/music.app/Contents/Info.plist Info.plist
-cCopyStringsFile /Users/federico/programacion/music/build/Debug/music.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCpResource build/Debug/music.app/Contents/Resources/rb_main.rb rb_main.rb
-cCompileXIB /Users/federico/programacion/music/English.lproj/MainMenu.xib
-cCpResource build/Debug/music.app/Contents/Resources/MusicDelegate.rb MusicDelegate.rb
-cCompileC build/music.build/Debug/music.build/Objects-normal/x86_64/main.o /Users/federico/programacion/music/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/federico/programacion/music/build/Debug/music.app/Contents/MacOS/music normal x86_64
-cTouch /Users/federico/programacion/music/build/Debug/music.app
-
-N/Developer/SDKs/MacOSX10.5.sdk
-c000000004AB44D2500000000000000EE
-t1253330213
-s238
-
-N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
-c000000004D069C6E000000000000005F
-t1292278894
-s95
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004ABBF0FD00000000000000EE
-t1253830909
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
-c000000004D069C6E000000000000005F
-t1292278894
-s95
-
-N/Library/Frameworks/MacRuby.framework/MacRuby
-c000000004D06A04200000000014E17D0
-t1292279874
-s21895120
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/Users/federico/programacion/music/English.lproj/InfoPlist.strings
-c000000004D2C0F2900000000000000CA
-t1294733097
-s202
-
-N/Users/federico/programacion/music/English.lproj/MainMenu.xib
-c000000004D2C1D94000000000002B5D2
-t1294736788
-s177618
-
-N/Users/federico/programacion/music/MusicDelegate.rb
-c000000004D2C22E300000000000001F6
-t1294738147
-s502
-
-N/Users/federico/programacion/music/build/Debug/music.app
-t1294738149
-s102
-
-N/Users/federico/programacion/music/build/Debug/music.app/Contents/Info.plist
-t1294733740
-s763
-
-N/Users/federico/programacion/music/build/Debug/music.app/Contents/MacOS/music
-t1294733742
-s8968
-
-N/Users/federico/programacion/music/build/Debug/music.app/Contents/PkgInfo
-t1294733740
-s8
-
-N/Users/federico/programacion/music/build/Debug/music.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1294733740
-s202
-
-N/Users/federico/programacion/music/build/Debug/music.app/Contents/Resources/English.lproj/MainMenu.nib
-t1294736791
-s36174
-
-N/Users/federico/programacion/music/build/Debug/music.app/Contents/Resources/MusicDelegate.rb
-t1294738149
-s502
-
-N/Users/federico/programacion/music/build/Debug/music.app/Contents/Resources/rb_main.rb
-t1294733740
-s608
-
-N/Users/federico/programacion/music/build/Debug/music.app/Contents/Resources/test.rb
-t2
-s0
-
-N/Users/federico/programacion/music/build/music.build/Debug/music.build/Objects-normal/x86_64/main.o
-t1294733741
-s5356
-
-N/Users/federico/programacion/music/build/music.build/Debug/music.build/Objects-normal/x86_64/music.LinkFileList
-c000000004D2C11AC0000000000000064
-t1294733740
-s100
-
-N/Users/federico/programacion/music/main.m
-c000000004D2C0F2900000000000000F0
-t1294733097
-s240
-i<MacRuby/MacRuby.h>
-
-N/Users/federico/programacion/music/rb_main.rb
-c000000004D2C0F290000000000000260
-t1294733097
-s608
-
-N/Users/federico/programacion/music/test.rb
-c000000004D2C109C0000000000000088
-t1294733468
-s136
-
-NInfo.plist
-c000000004D2C0F290000000000000342
-t1294733097
-s834
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies316430949#316430949#0(0"0(0#1#0"4300885448#0"0#
-
-CCompileC build/music.build/Debug/music.build/Objects-normal/x86_64/main.o /Users/federico/programacion/music/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s316426540.436358
-e316426541.691398
-r1
-xCompileC
-xbuild/music.build/Debug/music.build/Objects-normal/x86_64/main.o
-x/Users/federico/programacion/music/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/federico/programacion/music/main.m316426540#316426541#0(0"0(0#0#41"/Users/federico/programacion/music/main.m4300885448#919"    cd /Users/federico/programacion/music    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/federico/programacion/music/build/music.build/Debug/music.build/music.hmap -F/Users/federico/programacion/music/build/Debug -F/Users/federico/programacion/music/build/Debug -I/Users/federico/programacion/music/build/Debug/include -I/Users/federico/programacion/music/build/music.build/Debug/music.build/DerivedSources/x86_64 -I/Users/federico/programacion/music/build/music.build/Debug/music.build/DerivedSources -c /Users/federico/programacion/music/main.m -o /Users/federico/programacion/music/build/music.build/Debug/music.build/Objects-normal/x86_64/main.o0#
-
-CCompileXIB /Users/federico/programacion/music/English.lproj/MainMenu.xib
-s316429590.464429
-e316429591.112861
-r1
-xCompileXIB
-x/Users/federico/programacion/music/English.lproj/MainMenu.xib
-o/* com.apple.ibtool.document.notices */
-o/Users/federico/programacion/music/English.lproj/MainMenu.xib:389: note: This view is clipping its content.
-o/* com.apple.ibtool.document.warnings */
-o/Users/federico/programacion/music/English.lproj/MainMenu.xib:371: warning: This window's content rectangle does not lie entirely on the screen with the menu bar and may not be completely visible for all screen resolutions and configurations.
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib316429590#316429591#0(432"/* com.apple.ibtool.document.notices *//Users/federico/programacion/music/English.lproj/MainMenu.xib:389: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/federico/programacion/music/English.lproj/MainMenu.xib:371: warning: This window's content rectangle does not lie entirely on the screen with the menu bar and may not be completely visible for all screen resolutions and configurations.2(13@34"This view is clipping its content.316429591#18446744073709551615#0#0(6@61"/Users/federico/programacion/music/English.lproj/MainMenu.xib316429588#389#0#389#0#0"0(22@166"This window's content rectangle does not lie entirely on the screen with the menu bar and may not be completely visible for all screen resolutions and configurations.316429591#18446744073709551615#0#0(6@61"/Users/federico/programacion/music/English.lproj/MainMenu.xib316429588#371#0#371#0#0"0(0#0#61"/Users/federico/programacion/music/English.lproj/MainMenu.xib4300885448#313"    cd /Users/federico/programacion/music    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/federico/programacion/music/build/Debug/music.app/Contents/Resources/English.lproj/MainMenu.nib /Users/federico/programacion/music/English.lproj/MainMenu.xib0#
-
-CCopyStringsFile /Users/federico/programacion/music/build/Debug/music.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-s316426540.059793
-e316426540.390270
-r1
-xCopyStringsFile
-x/Users/federico/programacion/music/build/Debug/music.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings316426540#316426540#0(0"0(0#0#66"/Users/federico/programacion/music/English.lproj/InfoPlist.strings4300885448#356"    cd /Users/federico/programacion/music    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/federico/programacion/music/build/Debug/music.app/Contents/Resources/English.lproj0#
-
-CCpResource build/Debug/music.app/Contents/Resources/MusicDelegate.rb MusicDelegate.rb
-s316430949.269867
-e316430949.277554
-r1
-xCpResource
-xbuild/Debug/music.app/Contents/Resources/MusicDelegate.rb
-xMusicDelegate.rb
-lSLF07#2@21"Copy MusicDelegate.rb316430949#316430949#0(0"0(0#0#51"/Users/federico/programacion/music/MusicDelegate.rb4300885448#318"    cd /Users/federico/programacion/music    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/federico/programacion/music/MusicDelegate.rb /Users/federico/programacion/music/build/Debug/music.app/Contents/Resources0#
-
-CCpResource build/Debug/music.app/Contents/Resources/rb_main.rb rb_main.rb
-s316426540.062145
-e316426540.173924
-r1
-xCpResource
-xbuild/Debug/music.app/Contents/Resources/rb_main.rb
-xrb_main.rb
-lSLF07#2@15"Copy rb_main.rb316426540#316426540#0(0"0(0#0#45"/Users/federico/programacion/music/rb_main.rb4300885448#312"    cd /Users/federico/programacion/music    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/federico/programacion/music/rb_main.rb /Users/federico/programacion/music/build/Debug/music.app/Contents/Resources0#
-
-CCpResource build/Debug/music.app/Contents/Resources/test.rb test.rb
-r0
-
-CLd /Users/federico/programacion/music/build/Debug/music.app/Contents/MacOS/music normal x86_64
-s316426541.691600
-e316426542.334928
-r1
-xLd
-x/Users/federico/programacion/music/build/Debug/music.app/Contents/MacOS/music
-xnormal
-xx86_64
-lSLF07#2@82"Link /Users/federico/programacion/music/build/Debug/music.app/Contents/MacOS/music316426541#316426542#0(0"0(0#0#0"4300885448#580"    cd /Users/federico/programacion/music    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/federico/programacion/music/build/Debug -F/Users/federico/programacion/music/build/Debug -F/Users/federico/programacion/music/build/Debug -filelist /Users/federico/programacion/music/build/music.build/Debug/music.build/Objects-normal/x86_64/music.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework MacRuby -o /Users/federico/programacion/music/build/Debug/music.app/Contents/MacOS/music0#
-
-CProcessInfoPlistFile /Users/federico/programacion/music/build/Debug/music.app/Contents/Info.plist Info.plist
-s316426540.011086
-e316426540.059635
-r1
-xProcessInfoPlistFile
-x/Users/federico/programacion/music/build/Debug/music.app/Contents/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist316426540#316426540#0(0"0(0#0#45"/Users/federico/programacion/music/Info.plist29555366483525740#286"    cd /Users/federico/programacion/music    builtin-infoPlistUtility Info.plist -genpkginfo /Users/federico/programacion/music/build/Debug/music.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/federico/programacion/music/build/Debug/music.app/Contents/Info.plist0#
-
-CTouch /Users/federico/programacion/music/build/Debug/music.app
-s316430949.277835
-e316430949.281997
-r1
-xTouch
-x/Users/federico/programacion/music/build/Debug/music.app
-lSLF07#2@62"Touch /Users/federico/programacion/music/build/Debug/music.app316430949#316430949#0(0"0(0#0#0"4300885448#121"    cd /Users/federico/programacion/music    /usr/bin/touch -c /Users/federico/programacion/music/build/Debug/music.app0#
-
