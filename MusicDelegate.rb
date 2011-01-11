@@ -10,6 +10,7 @@ framework "QTKit"
 class MusicDelegate
 
   attr_accessor :filenames
+  attr_accessor :songs_view, :song_label
 
   def applicationDidFinishLaunching(notification)
     @filenames = Dir["/Users/federico/Music/iTunes/iTunes Music/**/*.mp3"]
