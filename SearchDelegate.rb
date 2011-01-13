@@ -2,6 +2,7 @@ class SearchDelegate
   attr_accessor :parent
   attr_accessor :search_bar
 
+  # TODO: Add some sort of index structure to improve searches.
   def updateFilter(sender)
     search_string = search_bar.stringValue
     search_regexp = Regexp.new(search_string, Regexp::IGNORECASE)

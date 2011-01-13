@@ -48,6 +48,7 @@ class MusicDelegate
     play_song(sender)
   end
 
+  # TODO: Not fully working with the search, fix.
   def play_song(sender)
     clicked_pos = self.songs_view.clickedRow
     if clicked_pos == -1        # first song or same song
