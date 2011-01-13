@@ -1,6 +1,6 @@
 framework "AppKit"
 
-class Song < NSSound
+class Song
 
   attr_accessor :position, :song
 
