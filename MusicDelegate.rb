@@ -42,18 +42,23 @@ class MusicDelegate
   end
 
   def table_click(sender)
-    play_song(self)
+    play_song(sender)
   end
 
   def play_song(sender)
-    if @current_song.try(:song).try(:playing?)
-      @current_song.song.resume
-    else
-      pos = self.songs_view.clickedRow
-      filename = @filenames[pos]
-      @current_song = Song.new(filename, pos)
-      @current_song.song.play
+    clicked_pos = self.songs_view.clickedRow
+    if clicked_pos == -1        # first song or same song
+      if @current_song.try(:song).try(:playing?) # same song
+        clicked_pos = @current_song.position
+      else
+        clicked_pos = 0
+      end
     end
+    @current_song.song.stop if @current_song
+
+    filename = @filenames[clicked_pos]
+    @current_song = Song.new(filename, clicked_pos, self)
+    @current_song.song.play
   end
 
   def stop_song(sender)
@@ -79,10 +84,14 @@ class MusicDelegate
       how_many = @files.count - 1
     end
 
-    new_song = Song.new(@filenames[cur_pos + how_many], cur_pos + how_many)
+    new_song = Song.new(@filenames[cur_pos + how_many], cur_pos + how_many, self)
 
     @current_song.song.stop if @current_song.try(:song).try(:playing?)
     @current_song = new_song
     @current_song.song.play
+  end
+
+  def sound(sound, didFinishPlaying: state)
+    next_song(self) if state
   end
 end
