@@ -22,19 +22,22 @@ end
 
 class MusicDelegate
 
-  attr_accessor :filenames, :files
-  attr_accessor :songs_view
+  attr_accessor :filenames, :files, :display_files, :display_filenames
+  attr_accessor :songs_view, :search_bar
 
   def initialize
     @filenames = Dir["/Users/federico/Music/iTunes/iTunes Music/**/*.mp3"]
-    @files = Array.new
+    @files = Array.new          # struct of all the files
     @filenames.each do |f|
       splitted = f.split("/")
       artist = splitted[-2]
       song = splitted.last
-      @files << { artist: artist, name: song }
+      @files << { artist: artist, name: song, filename: f }
     end
+
     @current_song = nil
+    @display_files = @files     # files to display (important in search)
+    @display_filenames = update_display_filenames
   end
 
   def applicationDidFinishLaunching(notification)
@@ -56,7 +59,7 @@ class MusicDelegate
     end
     @current_song.song.stop if @current_song
 
-    filename = @filenames[clicked_pos]
+    filename = @display_filenames[clicked_pos]
     @current_song = Song.new(filename, clicked_pos, self)
     @current_song.song.play
   end
@@ -81,10 +84,10 @@ class MusicDelegate
     cur_pos = @current_song.position rescue 0
 
     if cur_pos == 0 && how_many < 0 # jump to the last song
-      how_many = @files.count - 1
+      how_many = @display_files.count - 1
     end
 
-    new_song = Song.new(@filenames[cur_pos + how_many], cur_pos + how_many, self)
+    new_song = Song.new(@display_filenames[cur_pos + how_many], cur_pos + how_many, self)
 
     @current_song.song.stop if @current_song.try(:song).try(:playing?)
     @current_song = new_song
@@ -93,5 +96,9 @@ class MusicDelegate
 
   def sound(sound, didFinishPlaying: state)
     next_song(self) if state
+  end
+
+  def update_display_filenames()
+    @display_filenames = @display_files.map { |f| f[:filename] }
   end
 end

@@ -54,7 +54,7 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {519, 237}}";
+			sepNavIntBoundsRect = "{{0, 0}, {519, 219}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 240}";
 		};
@@ -65,6 +65,13 @@
 	4D1A51A510A4FF640046A98A /* Embed */ = {
 		activeExec = 0;
 	};
+	4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {775, 312}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{113, 495}";
+		};
+	};
 	7A05C99012DEE50200BBBFCB /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7AE65A2112DC5D1200BFAE26 /* SongListDelegate.rb */;
@@ -74,6 +81,14 @@
 		rType = 0;
 		vrLen = 322;
 		vrLoc = 0;
+	};
+	7A05C9A012DEE59E00BBBFCB /* Song.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {530, 221}}";
+			sepNavSelRange = "{337, 0}";
+			sepNavVisRange = "{0, 337}";
+			sepNavWindowFrame = "{{15, 409}, {1096, 764}}";
+		};
 	};
 	7A93D2A812DD956A00012EB0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
