@@ -12,8 +12,8 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="29"/>
 			<integer value="392"/>
+			<integer value="29"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1257,12 +1257,12 @@
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="NSCustomView" id="320004402">
 									<reference key="NSNextResponder" ref="876730398"/>
-									<int key="NSvFlags">272</int>
+									<int key="NSvFlags">310</int>
 									<object class="NSMutableArray" key="NSSubviews">
 										<bool key="EncodedWithXMLCoder">YES</bool>
 										<object class="NSScrollView" id="532024449">
 											<reference key="NSNextResponder" ref="320004402"/>
-											<int key="NSvFlags">268</int>
+											<int key="NSvFlags">286</int>
 											<object class="NSMutableArray" key="NSSubviews">
 												<bool key="EncodedWithXMLCoder">YES</bool>
 												<object class="NSClipView" id="1043535432">
@@ -1272,7 +1272,7 @@
 														<bool key="EncodedWithXMLCoder">YES</bool>
 														<object class="NSTableView" id="958700105">
 															<reference key="NSNextResponder" ref="1043535432"/>
-															<int key="NSvFlags">256</int>
+															<int key="NSvFlags">274</int>
 															<string key="NSFrameSize">{240, 550}</string>
 															<reference key="NSSuperview" ref="1043535432"/>
 															<bool key="NSEnabled">YES</bool>
