@@ -1,4 +1,4 @@
-framework "AppKit"
+require 'song'
 #
 #  MusicDelegate.rb
 #  music
@@ -11,6 +11,12 @@ framework "AppKit"
 module Kernel
   def log(what)
     NSLog what.to_s
+  end
+end
+
+class Object
+  def try(method)
+    send method if respond_to? method
   end
 end
 
@@ -40,26 +46,43 @@ class MusicDelegate
   end
 
   def play_song(sender)
-    if @current_song && @current_song.playing?
-      @current_song.resume
+    if @current_song.try(:song).try(:playing?)
+      @current_song.song.resume
     else
-      filename = @filenames[self.songs_view.clickedRow]
-      @current_song = NSSound.alloc.initWithContentsOfFile(filename, byReference: false)
-      @current_song.play
+      pos = self.songs_view.clickedRow
+      filename = @filenames[pos]
+      @current_song = Song.new(filename, pos)
+      @current_song.song.play
     end
   end
 
   def stop_song(sender)
-    @current_song.stop if @current_song
+    @current_song.song.stop if @current_song
   end
 
   def pause_song(sender)
-    @current_song.pause if @current_song
+    @current_song.song.pause if @current_song
   end
 
   def previous_song(sender)
+    jump(-1)
   end
 
   def next_song(sender)
+    jump(1)
+  end
+
+  def jump(how_many)
+    cur_pos = @current_song.position rescue 0
+
+    if cur_pos == 0 && how_many < 0 # jump to the last song
+      how_many = @files.count - 1
+    end
+
+    new_song = Song.new(@filenames[cur_pos + how_many], cur_pos + how_many)
+
+    @current_song.song.stop if @current_song.try(:song).try(:playing?)
+    @current_song = new_song
+    @current_song.song.play
   end
 end

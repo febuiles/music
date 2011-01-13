@@ -38,22 +38,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 316425901;
-			PBXWorkspaceStateSaveDate = 316425901;
+			PBXPerProjectTemplateStateSaveDate = 316597483;
+			PBXWorkspaceStateSaveDate = 316597483;
 		};
 		perUserProjectItems = {
-			7AE659AD12DC46B300BFAE26 /* PBXBookmark */ = 7AE659AD12DC46B300BFAE26 /* PBXBookmark */;
-			7AE659AE12DC46B300BFAE26 /* PBXTextBookmark */ = 7AE659AE12DC46B300BFAE26 /* PBXTextBookmark */;
-			7AE65A0212DC5A1000BFAE26 /* PBXTextBookmark */ = 7AE65A0212DC5A1000BFAE26 /* PBXTextBookmark */;
-			7AE65A0312DC5A1000BFAE26 /* PBXTextBookmark */ = 7AE65A0312DC5A1000BFAE26 /* PBXTextBookmark */;
-			7AE65A0412DC5A1000BFAE26 /* PBXTextBookmark */ = 7AE65A0412DC5A1000BFAE26 /* PBXTextBookmark */;
-			7AE65A1012DC5A2000BFAE26 /* PBXTextBookmark */ = 7AE65A1012DC5A2000BFAE26 /* PBXTextBookmark */;
-			7AE65A1412DC5A3E00BFAE26 /* PBXTextBookmark */ = 7AE65A1412DC5A3E00BFAE26 /* PBXTextBookmark */;
-			7AE65A1812DC5A5400BFAE26 /* PBXTextBookmark */ = 7AE65A1812DC5A5400BFAE26 /* PBXTextBookmark */;
-			7AE65A1C12DC5A6600BFAE26 /* PBXTextBookmark */ = 7AE65A1C12DC5A6600BFAE26 /* PBXTextBookmark */;
-			7AE65A1E12DC5A8000BFAE26 /* PBXTextBookmark */ = 7AE65A1E12DC5A8000BFAE26 /* PBXTextBookmark */;
-			7AE65A1F12DC5ABC00BFAE26 /* PBXTextBookmark */ = 7AE65A1F12DC5ABC00BFAE26 /* PBXTextBookmark */;
-			7AE65A2012DC5BBC00BFAE26 /* PBXTextBookmark */ = 7AE65A2012DC5BBC00BFAE26 /* PBXTextBookmark */;
+			7A05C99012DEE50200BBBFCB /* PBXTextBookmark */ = 7A05C99012DEE50200BBBFCB /* PBXTextBookmark */;
+			7A93D2A812DD956A00012EB0 = 7A93D2A812DD956A00012EB0 /* PBXTextBookmark */;
+			7AE65A0212DC5A1000BFAE26 = 7AE65A0212DC5A1000BFAE26 /* PBXTextBookmark */;
+			7AE65AAF12DD267C00BFAE26 = 7AE65AAF12DD267C00BFAE26 /* PBXTextBookmark */;
+			7AE65AB112DD267C00BFAE26 = 7AE65AB112DD267C00BFAE26 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 7AE659A212DC45EE00BFAE26 /* Source Control */;
 		userBuildSettings = {
@@ -71,6 +64,26 @@
 	};
 	4D1A51A510A4FF640046A98A /* Embed */ = {
 		activeExec = 0;
+	};
+	7A05C99012DEE50200BBBFCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7AE65A2112DC5D1200BFAE26 /* SongListDelegate.rb */;
+		name = "SongListDelegate.rb: 24";
+		rLen = 0;
+		rLoc = 447;
+		rType = 0;
+		vrLen = 322;
+		vrLoc = 0;
+	};
+	7A93D2A812DD956A00012EB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7AE65A2112DC5D1200BFAE26 /* SongListDelegate.rb */;
+		name = "SongListDelegate.rb: 24";
+		rLen = 0;
+		rLoc = 447;
+		rType = 0;
+		vrLen = 388;
+		vrLoc = 0;
 	};
 	7AE6599012DC45EC00BFAE26 /* music */ = {
 		isa = PBXExecutable;
@@ -116,25 +129,11 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	7AE659AD12DC46B300BFAE26 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-	};
-	7AE659AE12DC46B300BFAE26 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-		name = "main.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 240;
-		vrLoc = 0;
-	};
 	7AE659BD12DC482C00BFAE26 /* MusicDelegate.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {530, 377}}";
+			sepNavIntBoundsRect = "{{0, 0}, {530, 884}}";
 			sepNavSelRange = "{502, 0}";
-			sepNavVisRange = "{0, 394}";
+			sepNavVisRange = "{146, 265}";
 		};
 	};
 	7AE65A0212DC5A1000BFAE26 /* PBXTextBookmark */ = {
@@ -147,87 +146,14 @@
 		vrLen = 240;
 		vrLoc = 0;
 	};
-	7AE65A0312DC5A1000BFAE26 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7AE659BD12DC482C00BFAE26 /* MusicDelegate.rb */;
-		name = "MusicDelegate.rb: 26";
-		rLen = 0;
-		rLoc = 328;
-		rType = 0;
-		vrLen = 275;
-		vrLoc = 0;
+	7AE65A2112DC5D1200BFAE26 /* SongListDelegate.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 312}}";
+			sepNavSelRange = "{447, 0}";
+			sepNavVisRange = "{0, 382}";
+		};
 	};
-	7AE65A0412DC5A1000BFAE26 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7AE659BD12DC482C00BFAE26 /* MusicDelegate.rb */;
-		name = "MusicDelegate.rb: 30";
-		rLen = 0;
-		rLoc = 496;
-		rType = 0;
-		vrLen = 394;
-		vrLoc = 0;
-	};
-	7AE65A1012DC5A2000BFAE26 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7AE659BD12DC482C00BFAE26 /* MusicDelegate.rb */;
-		name = "MusicDelegate.rb: 30";
-		rLen = 0;
-		rLoc = 496;
-		rType = 0;
-		vrLen = 365;
-		vrLoc = 0;
-	};
-	7AE65A1412DC5A3E00BFAE26 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7AE659BD12DC482C00BFAE26 /* MusicDelegate.rb */;
-		name = "MusicDelegate.rb: 30";
-		rLen = 0;
-		rLoc = 467;
-		rType = 0;
-		vrLen = 336;
-		vrLoc = 0;
-	};
-	7AE65A1812DC5A5400BFAE26 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7AE659BD12DC482C00BFAE26 /* MusicDelegate.rb */;
-		name = "MusicDelegate.rb: 30";
-		rLen = 0;
-		rLoc = 472;
-		rType = 0;
-		vrLen = 341;
-		vrLoc = 0;
-	};
-	7AE65A1C12DC5A6600BFAE26 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7AE659BD12DC482C00BFAE26 /* MusicDelegate.rb */;
-		name = "MusicDelegate.rb: 31";
-		rLen = 0;
-		rLoc = 502;
-		rType = 0;
-		vrLen = 370;
-		vrLoc = 0;
-	};
-	7AE65A1E12DC5A8000BFAE26 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7AE659BD12DC482C00BFAE26 /* MusicDelegate.rb */;
-		name = "MusicDelegate.rb: 28";
-		rLen = 0;
-		rLoc = 432;
-		rType = 0;
-		vrLen = 356;
-		vrLoc = 0;
-	};
-	7AE65A1F12DC5ABC00BFAE26 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7AE659BD12DC482C00BFAE26 /* MusicDelegate.rb */;
-		name = "MusicDelegate.rb: 30";
-		rLen = 0;
-		rLoc = 461;
-		rType = 0;
-		vrLen = 359;
-		vrLoc = 0;
-	};
-	7AE65A2012DC5BBC00BFAE26 /* PBXTextBookmark */ = {
+	7AE65AAF12DD267C00BFAE26 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7AE659BD12DC482C00BFAE26 /* MusicDelegate.rb */;
 		name = "MusicDelegate.rb: 31";
@@ -235,6 +161,16 @@
 		rLoc = 502;
 		rType = 0;
 		vrLen = 394;
+		vrLoc = 0;
+	};
+	7AE65AB112DD267C00BFAE26 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7AE65A2112DC5D1200BFAE26 /* SongListDelegate.rb */;
+		name = "SongListDelegate.rb: 24";
+		rLen = 0;
+		rLoc = 447;
+		rType = 0;
+		vrLen = 389;
 		vrLoc = 0;
 	};
 	8D1107260486CEB800E47090 /* music */ = {
